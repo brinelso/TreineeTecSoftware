@@ -66,3 +66,34 @@ button {
 button:hover {
     background-color: #444;
 }
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 24px;
+    }
+
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto {
+        width: 90vw;
+        height: auto;
+        aspect-ratio: 3 / 2;
+    }
+
+    .botoes {
+        flex-direction: row;
+        width: 90vw;
+        justify-content: center;
+    }
+
+    button {
+        flex: 1;
+        font-size: 0.95rem;
+        padding: 10px 16px;
+    }
+}
