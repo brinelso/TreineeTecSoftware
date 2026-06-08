@@ -67,7 +67,6 @@ button:hover {
     background-color: #444;
 }
 
-/* --- Responsividade --- */
 @media (max-width: 768px) {
     h1 {
         font-size: 1.4rem;
