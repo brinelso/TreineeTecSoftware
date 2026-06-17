@@ -1,0 +1,17 @@
+{
+  "name": "aula05",
+  "version": "1.0.0",
+  "description": "Catálogo de jogos favoritos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "package.json": "^2.0.1"
+  }
+}
